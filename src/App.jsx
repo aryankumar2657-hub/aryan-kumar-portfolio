@@ -58,8 +58,8 @@ function App() {
     "JWT Authentication",
     "Git & GitHub",
     "Postman",
-    "HTML5",
-    "CSS3",
+    "HTML",
+    "CSSS",
     "Problem Solving",
   ];
 
@@ -183,12 +183,35 @@ function App() {
               <p className="tech">{project.tech}</p>
 
               <p>{project.description}</p>
+<div className="project-links">
 
-              <div className="project-links">
-                <a href={project.github} target="_blank">
-                  View GitHub
-                </a>
-              </div>
+  <a href={project.github} target="_blank" rel="noreferrer">
+    View GitHub
+  </a>
+
+  {project.demo && (
+    <a href={project.demo} target="_blank" rel="noreferrer">
+      Live Demo
+    </a>
+  )}
+
+</div>
+
+<div className="deployment-info">
+
+  {project.frontend && (
+    <p><strong>Frontend:</strong> {project.frontend}</p>
+  )}
+
+  {project.backend && (
+    <p><strong>Backend:</strong> {project.backend}</p>
+  )}
+
+  {project.database && (
+    <p><strong>Database:</strong> {project.database}</p>
+  )}
+
+</div>
             </motion.div>
           ))}
         </div>
