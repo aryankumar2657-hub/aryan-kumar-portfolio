@@ -93,7 +93,7 @@ github: "https://github.com/aryankumar2657-hub",
     "Git & GitHub",
     "Postman",
     "HTML",
-    "CSSS",
+    "CSS",
     "Problem Solving",
   ];
 
