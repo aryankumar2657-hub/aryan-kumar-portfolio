@@ -107,9 +107,14 @@ function App() {
             LinkedIn
           </a>
 
-          <a href="/Aryan_Kumar_Resume.pdf" download className="resume-btn">
-            Download Resume
-          </a>
+          <a
+  href="/Aryan_Kumar_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="resume-btn"
+>
+  Download Resume
+</a>
         </div>
       </motion.section>
 
