@@ -9,7 +9,14 @@ function App() {
       image: "/screenshots/smarthire.jpg",
       description:
         "AI-powered recruitment platform with candidate management, interview scheduling, analytics dashboard, AI resume analyzer, JWT authentication, CRUD operations, search/filter, and responsive HR UI.",
-      github:
+        structure: [
+  "Frontend: React.js",
+  "Backend: Spring Boot REST APIs",
+  "Database: MySQL",
+  "Authentication: JWT Security",
+  "Deployment: Railway + Vercel",
+],
+        github:
         "https://github.com/aryankumar2657-hub/SmartHire-AI-Recruitment-Platform",
       featured: true,
     },
@@ -19,6 +26,12 @@ function App() {
       image: "/screenshots/urbancart.jpg",
       description:
         "Full stack ecommerce platform with authentication, cart management, product workflow, responsive frontend, and scalable backend REST APIs.",
+        structure: [
+  "Frontend: React.js",
+  "Backend: Spring Boot",
+  "Database: MySQL",
+  "Authentication: JWT",
+],
       github:
         "https://github.com/aryankumar2657-hub/urbancart-AI-ecommerce",
     },
@@ -26,9 +39,17 @@ function App() {
       title: "Razorpay Payment Integration",
       tech: "React.js, Spring Boot, Razorpay API",
       image: "/screenshots/razorpay.jpg",
-      description:
-        "Secure payment gateway integration using Razorpay API with order processing, payment handling, and responsive checkout workflow.",
-      github: "https://github.com/aryankumar2657-hub",
+     description:
+  "Developed an online course platform with secure Razorpay payment integration, course access management, and responsive UI.",
+
+structure: [
+  "Frontend: React.js",
+  "Backend: Spring Boot",
+  "Payment Gateway: Razorpay API",
+  "Database: MySQL",
+  "Features: Course Purchase, Secure Payments & User Access",
+],
+github: "https://github.com/aryankumar2657-hub",
     },
     {
       title: "Employee HR Portal",
@@ -36,6 +57,13 @@ function App() {
       image: "/screenshots/employee.jpg",
       description:
         "HR management portal with employee CRUD operations, REST API integration, database management, and responsive dashboard interface.",
+        structure: [
+  "Frontend: React.js",
+  "Backend: Spring Boot REST APIs",
+  "Database: MySQL",
+  "Authentication: JWT Security",
+  "Features: Employee Management, Attendance & Admin Dashboard",
+],
       github: "https://github.com/aryankumar2657-hub/employee-hr-portal",
     },
     {
@@ -44,6 +72,12 @@ function App() {
       image: "/screenshots/bank.jpg",
       description:
         "Backend banking system with account management, transaction handling, database connectivity, and secure data operations.",
+        structure: [
+  "Frontend: Java Swing",
+  "Backend: JDBC",
+  "Database: MySQL",
+  "Features: Account Creation, Deposit, Withdrawal & Transaction Management",
+],
       github: "https://github.com/aryankumar2657-hub/Bank-management-system",
     },
   ];
